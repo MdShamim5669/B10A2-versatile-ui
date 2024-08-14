@@ -108,4 +108,18 @@
         padding-left: 40px;
         padding-top: 40px;
     }
+    .footer{
+       grid-template-columns: repeat(1,1fr);
+    }
+    .footer-section{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .footer-heading, .footer-description{
+        padding-left: 20px;
+    }
+    .footer-second, .footer-third{
+        margin: 0;
+        text-align: left;
+    }
 }

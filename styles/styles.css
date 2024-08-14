@@ -133,8 +133,6 @@
     backdrop-filter: blur(10px);
     margin-left: -3.06rem;
     margin-bottom: -7rem;
-   
-
 }
 #badge-year{
     font-size: 1.5rem;
@@ -340,3 +338,73 @@
 
  /* 1.5rem */
 /* Main section end here */
+/* Footer section */
+footer{
+    background: #222;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-section{
+    width: 63.8rem;
+    margin: 0 auto;
+}
+.footer-heading{
+    color: #E6533C;
+    font-size: 4.375rem;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%; /* 5.25rem */
+    padding-top: 5rem;
+}
+.footer-second-heading{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%; /* 2.4rem */
+    padding-top: 5rem;
+}
+
+.footer-description{
+    width: 27.68rem;
+    height: auto;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.01875rem;
+}
+.footer-second, .footer-third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    gap: 10px;
+}
+.footer-button{
+    color: #FAFAF9;
+    font-size: 1.0rem;
+    font-weight: 400;
+    background-color: transparent; 
+    border: none;/
+    outline: none
+}
+.line{
+    width: 57.68rem;
+    height: auto;
+    margin: 0 auto;
+    border-bottom: 1px solid whitesmoke;
+    padding-top: 50px;
+}
+.copywrite{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5rem; 
+    letter-spacing: 0.01875rem;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
