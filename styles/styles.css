@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+    
+  }
+/* Shared styles starts here */
+.display-flex{
+    display: flex;
+  }
+/* Color 01 */
+
+.btn-primary{
+    color:rgba(255, 255, 255, 1);
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 14rem;
+    padding: 1rem 2.5rem;
+    background-color: #E6533C;
+    border-radius: 2.65rem;
+    border: none;
+}
+.border{
+    border-radius: 1px solid yellow;
+}
+.display-hide{
+    display: none;
+}
+.main{
+    width: 1060px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+/* Shared styles end here */
+
+  /* Nav-bar RelatEd styles */
+.header{
+    background-image: linear-gradient(180deg, #000000 0%, rgba(150, 150, 150, 0.00) 100%);
+    background: #000000d3;
+    border: 1px solid green;
+    margin-bottom: 5px;
+    
+}
+.nav-bar{
+    width: 1060px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .brand{
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(230, 83, 60, 1);
+  }
+  .nav-items{
+    color: #FFF;
+    align-items: center;
+  }
+  .nav-item{
+    list-style: none;
+    margin-left: 30px;
+}
+.hambarg{
+    background-color: #FAFAF9;
+}
+
+.nav-btn{
+    background: #E6533C;
+    border-radius: 2.875rem;
+    padding: 0.5rem 1.25rem;
+}
+/* Navbar related styles end here */
+
+/* Banner related styles start here */
+.Banner{
+    width: 1060px;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4.825rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-bottom: 1.75rem;
+}
+.banner-description{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.03125rem;
+    margin-bottom: 1.75rem;
+   
+}
+.shape{
+    font-style: italic;
+}
+.banner-content{
+  
+    margin-top: 2rem;
+}
+.banner-content-left{
+    width: 90%;
+    margin-top: 6rem;
+    border: 1px solid yellow;
+}
+.download-app{
+    padding: 1rem 2.5rem;
+    border-radius: 3rem;
+    color: #836a6a;
+}
+.banner-content-right{
+    width: 90%;
+    border: 2px solid yellow;
+    margin-left: 5.4rem;
+
+}
+.banner-img{
+    padding-left: 30px;
+    height: 100%;
+    object-fit: contain;
+}
+.img-badge{
+    width: 8.8rem;
+    height: 4rem;
+    border-radius: 1rem;
+    border: 1px solid rebeccapurple;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    margin-left: -3.06rem;
+    margin-bottom: -7rem;
+   
+
+}
+#badge-year{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #FAFAF9;
+    
+}
+#badge-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+.img-badge2{
+    width: 8.8rem;
+    height: 5rem;
+    border-radius: 1rem;
+    border: 1px solid rebeccapurple;
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    margin-bottom: 10rem;
+    margin-right: 5rem;
+    position: absolute;
+}
+
+
+/* Banner related styles end here */
+
+/* Main section start here */
+.main{
+    background: #000000d3;
+}
+/* habit section start here */
+
+.habit-section{
+    width: 1060px;
+    margin: 0 auto;
+}
+.habit{
+    text-align: center;
+    padding: 6.25rem;
+    width: 42rem;
+    height: 7.5rem;
+    margin: 0 auto;
+}
+.habit-title{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.88rem;
+}
+.habit-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 3.64rem;
+}
+/* Trainner Part */
+.trainers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    align-items: center;
+}
+
+.trainer img{
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1.88rem;
+}
+.title{
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+}
+.description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 6.25rem;
+}
+
+/* End trinner part here */
+
+/* starts Run and Extra Mile Easily */
+.run-and-extra{
+    width: 1060px;
+    margin: 0 auto;
+}
+.run-section{
+    display: flex;
+    width: 90%;
+    padding: 1.875rem 2rem 1.8125rem 3.375rem;
+    gap: 10rem;
+    justify-content: flex-end;
+    border-radius: 1.125rem;
+    background: #141414;
+}
+.div{
+    width: 50%;
+}
+.div  img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 20px;
+}
+.div-1{
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    padding: 10px;
+    gap: 10px;
+    text-align: left;
+}
+.div-1 button{
+    margin-left: 0%;
+}
+.rub-heading{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 100%;
+}
+.run-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 0.87rem;
+    font-weight: 400;
+}
+/* Ends Run and Extra Mile Easily */
+/* Start BMI Section here */
+
+
+/* Ends BMI Section here */
+/* Start Meet Our Section Here */
+
+/* Ends Meet our section here */
+.Meet-out-team{
+    width: 65rem;
+    height: 49rem;
+    margin: 0 auto;
+    border: 1px solid yellow;
+}
+.Meet-section-firstpart{
+    width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.Meet-section-heading{
+    margin-bottom: 1rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 3rem;
+}
+.Meet-section-description{
+    width: 40rem;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.50);
+}
+/* Main section end here */
