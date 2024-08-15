@@ -6,8 +6,8 @@
         background-color: black;
     }
     .brand{
-        padding-left: 1rem;
-        padding-bottom: auto;
+        margin-left: 30px;
+        padding-left: 1rem;git
     }
     .nav-items{
         display: none;
@@ -19,16 +19,37 @@
     .banner-content{
        
     }
+    .img-badge2{
+        width: 8.8rem;
+        height: 5rem;
+        border-radius: 1rem;
+        border: 1px solid rebeccapurple;
+        background: rgba(48, 48, 48, 0.54);
+        backdrop-filter: blur(10px);
+        position: absolute;
+        top: 180%;
+    }
+    .img-badge{
+        display: none;
+    }
+    .habit{
+        text-align: center;
+        padding: 6.25rem;
+        width: 30rem;
+        height: 7.5rem;
+        margin: 0 auto;
+    }
     .banner-title{
         font-size: 2.3rem;
         font-weight: 600;
-        padding-left: 2rem;
+        padding-left: 3rem;
         line-height: auto;
     }
     .banner-description ,
-    .banner-btns,
+    .banner-btns
     {
-        padding-left: 1.5rem;
+        margin-top: 50px;
+        padding-left: 2rem;
     }
     .banner-content-right{
         padding-left: none;
@@ -118,8 +139,8 @@
        grid-template-columns: repeat(1,1fr);
     }
     .footer-section{
-        
-        margin: 0 auto;
+        width: 57px;
+        margin: 0;
     }
     .footer-heading, .footer-description{
         padding-left: 20px;
@@ -131,5 +152,17 @@
     .footer-second, .footer-third{
         flex-direction: column;  
         gap: 0px;
+        padding: 0px;
     }
+        .footer-button{
+            color: #FAFAF9;
+            font-size: 1.0rem;
+            font-weight: 400;
+            background-color: transparent; 
+            border: none;/
+            outline: none
+        }
+        .footer-first{
+            margin-left: 30px;
+        }
 }
