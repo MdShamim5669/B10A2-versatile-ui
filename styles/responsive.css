@@ -12,12 +12,12 @@
     .nav-items{
         display: none;
     }
+    #hamburg{
+        background-color: ;
+      }
     .banner-content,
     .run-section{
         flex-direction: column;
-    }
-    .banner-content{
-       
     }
     .img-badge2{
         width: 8.8rem;
